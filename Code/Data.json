@@ -1,0 +1,322 @@
+{
+    "livres": [
+        {
+            "id": "7e5ccbb1-7fd5-4ee3-9c8f-2a1f3a956f13",
+            "titre": "1984",
+            "auteur": "George Orwell",
+            "status": "Disponible"
+        },
+        {
+            "id": "b59d14d7-bf42-4310-8cba-912e0932b44e",
+            "titre": "Le Petit Prince",
+            "auteur": "Antoine de Saint-Exupéry",
+            "status": "Disponible"
+        },
+        {
+            "id": "9c2c9c2f-a013-4cec-ae0d-ae3a2e2cfb49",
+            "titre": "Les Misérables",
+            "auteur": "Victor Hugo",
+            "status": "Disponible"
+        },
+        {
+            "id": "2d7ea3ab-4b4b-4e90-8e61-b5b811ac4efb",
+            "titre": "Fahrenheit 451",
+            "auteur": "Ray Bradbury",
+            "status": "Emprunté"
+        },
+        {
+            "id": "b1f0c4ca-5c3e-44f1-b03f-2d04aa3ad46a",
+            "titre": "L'Étranger",
+            "auteur": "Albert Camus",
+            "status": "Disponible"
+        },
+        {
+            "id": "bb1ff68e-1776-4a66-bf6e-6a3b54c99c3b",
+            "titre": "Crime et Châtiment",
+            "auteur": "Fiodor Dostoïevski",
+            "status": "Disponible"
+        },
+        {
+            "id": "0ee825f2-978a-4212-b43d-f1a83fb1e0d0",
+            "titre": "Le Seigneur des Anneaux",
+            "auteur": "J.R.R. Tolkien",
+            "status": "Emprunté"
+        },
+        {
+            "id": "9c7ff6ec-9072-4a39-8f43-5577748d8e63",
+            "titre": "Harry Potter 1",
+            "auteur": "J.K. Rowling",
+            "status": "Disponible"
+        },
+        {
+            "id": "c1908f6f-4d30-4c19-bdeb-119e1cba7e62",
+            "titre": "Harry Potter 2",
+            "auteur": "J.K. Rowling",
+            "status": "Disponible"
+        },
+        {
+            "id": "9279b743-42e5-44ae-95ff-888c9d7f3f34",
+            "titre": "Don Quichotte",
+            "auteur": "Cervantes",
+            "status": "Disponible"
+        },
+        {
+            "id": "b18edc37-c93d-4a54-9d62-78ee8287d87d",
+            "titre": "Le Rouge et le Noir",
+            "auteur": "Stendhal",
+            "status": "Disponible"
+        },
+        {
+            "id": "8fbebbf2-2d99-4a32-88d9-90a57fa3ddda",
+            "titre": "Les Fleurs du Mal",
+            "auteur": "Charles Baudelaire",
+            "status": "Disponible"
+        },
+        {
+            "id": "6eefbba9-f1ce-48ad-a6fb-fd71fccc4810",
+            "titre": "Orgueil et Préjugés",
+            "auteur": "Jane Austen",
+            "status": "Disponible"
+        },
+        {
+            "id": "2ec14f88-3cf8-488d-903a-3f6ca41f3d95",
+            "titre": "Le Hobbit",
+            "auteur": "J.R.R. Tolkien",
+            "status": "Disponible"
+        },
+        {
+            "id": "c4e745ab-6b19-4e5e-bea1-6cd4df4324cd",
+            "titre": "La Peste",
+            "auteur": "Albert Camus",
+            "status": "Disponible"
+        },
+        {
+            "id": "a570218c-f996-4f73-bb00-8b9e8c80b54c",
+            "titre": "Dune",
+            "auteur": "Frank Herbert",
+            "status": "Emprunté"
+        },
+        {
+            "id": "bf33e37f-6b3d-45df-89fc-e576e70fb3c3",
+            "titre": "Fondation",
+            "auteur": "Isaac Asimov",
+            "status": "Disponible"
+        },
+        {
+            "id": "868d269b-6f66-4f04-9ac0-bdde41ac3d89",
+            "titre": "Le Meilleur des Mondes",
+            "auteur": "Aldous Huxley",
+            "status": "Disponible"
+        },
+        {
+            "id": "f25ce6ad-5e1b-456a-8ad9-5ed561d26beb",
+            "titre": "Shining",
+            "auteur": "Stephen King",
+            "status": "Disponible"
+        },
+        {
+            "id": "4ad3d523-246f-4621-8c28-03aa95e0ca7a",
+            "titre": "It",
+            "auteur": "Stephen King",
+            "status": "Disponible"
+        },
+        {
+            "id": "0926b7a4-21cf-4e22-98b2-e5b8fbf1bc03",
+            "titre": "Dracula",
+            "auteur": "Bram Stoker",
+            "status": "Disponible"
+        },
+        {
+            "id": "bcac6f35-23db-43a7-b1c4-35b31e10f6ef",
+            "titre": "Frankenstein",
+            "auteur": "Mary Shelley",
+            "status": "Disponible"
+        },
+        {
+            "id": "8d6533ab-bd2d-44d2-8fcb-a4be8ef61260",
+            "titre": "Moby Dick",
+            "auteur": "Herman Melville",
+            "status": "Disponible"
+        },
+        {
+            "id": "8d6dbf71-92d0-4325-8c4a-572d4bdc44bf",
+            "titre": "Voyage au centre de la Terre",
+            "auteur": "Jules Verne",
+            "status": "Disponible"
+        },
+        {
+            "id": "5c3c90e7-192e-41dd-9c5e-dcbe9d6abdb2",
+            "titre": "Le Tour du monde en 80 jours",
+            "auteur": "Jules Verne",
+            "status": "Disponible"
+        },
+        {
+            "id": "22d41f4e-04cc-420d-b31a-c71274b2e4f9",
+            "titre": "Vingt Mille Lieues sous les mers",
+            "auteur": "Jules Verne",
+            "status": "Disponible"
+        },
+        {
+            "id": "2878b09f-2d4c-455e-b824-160e1d345665",
+            "titre": "Guerre et Paix",
+            "auteur": "Léon Tolstoï",
+            "status": "Disponible"
+        },
+        {
+            "id": "aae49d52-c8f3-4bd0-94da-5fda7de43f8f",
+            "titre": "Anna Karénine",
+            "auteur": "Léon Tolstoï",
+            "status": "Disponible"
+        },
+        {
+            "id": "029cc57d-a3d7-46d2-96f0-8b583760ec1c",
+            "titre": "Le Comte de Monte-Cristo",
+            "auteur": "Alexandre Dumas",
+            "status": "Disponible"
+        },
+        {
+            "id": "cdcdcf87-5dda-466c-aa32-3afb4ec96b2c",
+            "titre": "Les Trois Mousquetaires",
+            "auteur": "Alexandre Dumas",
+            "status": "Disponible"
+        },
+        {
+            "id": "a34a42d7-1e12-4f31-9f64-4ae33aa58acf",
+            "titre": "Peter Pan",
+            "auteur": "J.M. Barrie",
+            "status": "Disponible"
+        },
+        {
+            "id": "d41a5697-0ec8-4522-8dac-819ac7248a88",
+            "titre": "Alice au pays des merveilles",
+            "auteur": "Lewis Carroll",
+            "status": "Disponible"
+        },
+        {
+            "id": "21b2b301-b86e-454c-baa8-69f2fae977a1",
+            "titre": "Le Nom de la Rose",
+            "auteur": "Umberto Eco",
+            "status": "Disponible"
+        },
+        {
+            "id": "f77cf438-d2fa-4a6d-b136-b2aec43f2acb",
+            "titre": "Bel-Ami",
+            "auteur": "Guy de Maupassant",
+            "status": "Disponible"
+        },
+        {
+            "id": "8bff4c5c-32b4-499d-90ff-e2dc17436470",
+            "titre": "Germinal",
+            "auteur": "Émile Zola",
+            "status": "Disponible"
+        },
+        {
+            "id": "c9ad2dd3-028e-43f3-bcbb-c8a2d20557a6",
+            "titre": "L'Assommoir",
+            "auteur": "Émile Zola",
+            "status": "Disponible"
+        },
+        {
+            "id": "95f556b5-7ca8-4cdb-8dcd-7b95e101167a",
+            "titre": "La Métamorphose",
+            "auteur": "Kafka",
+            "status": "Disponible"
+        },
+        {
+            "id": "458cf405-0b41-44c1-a4b4-14bbfb7691dc",
+            "titre": "Le Parfum",
+            "auteur": "Patrick Süskind",
+            "status": "Disponible"
+        },
+        {
+            "id": "ad3ec2ee-0b69-44e7-98cb-aaa370267f15",
+            "titre": "Le Vieil Homme et la Mer",
+            "auteur": "Ernest Hemingway",
+            "status": "Disponible"
+        },
+        {
+            "id": "66c62089-84dc-48ea-85c4-cf822feeb9ab",
+            "titre": "Hamlet",
+            "auteur": "William Shakespeare",
+            "status": "Disponible"
+        }
+    ],
+    "utilisateurs": [
+        {
+            "id": "c9b06e35-f054-442f-80b5-213f5149c716",
+            "nom": "Alice Dupont",
+            "livres_empruntes": [
+                "2d7ea3ab-4b4b-4e90-8e61-b5b811ac4efb"
+            ]
+        },
+        {
+            "id": "9848b694-8de8-4b91-93f5-89f6bc5a9831",
+            "nom": "Jean Martin",
+            "livres_empruntes": [
+                "0ee825f2-978a-4212-b43d-f1a83fb1e0d0"
+            ]
+        },
+        {
+            "id": "58449a9c-9f7a-41ab-b4fe-f6504c2b1aca",
+            "nom": "Sophie Leroy",
+            "livres_empruntes": []
+        },
+        {
+            "id": "940e3c35-10ac-40fb-a6e5-10fdb929810d",
+            "nom": "Paul Rossi",
+            "livres_empruntes": [
+                "a570218c-f996-4f73-bb00-8b9e8c80b54c"
+            ]
+        },
+        {
+            "id": "623816ab-fe95-4a6c-ac85-7b6845a1b52d",
+            "nom": "Emma Bernard",
+            "livres_empruntes": []
+        },
+        {
+            "id": "1bb9a8aa-d3da-4f8e-84c8-c3099ab7dc43",
+            "nom": "Lucas Morel",
+            "livres_empruntes": []
+        },
+        {
+            "id": "b663ff38-6c2f-452f-a24b-fb10d8636eae",
+            "nom": "Nina Caron",
+            "livres_empruntes": []
+        },
+        {
+            "id": "f9d5d637-ffdb-4e15-b37c-16db85717bf3",
+            "nom": "Hugo Petit",
+            "livres_empruntes": []
+        },
+        {
+            "id": "ffa70ab5-5194-46d0-b884-589f70d2a6f4",
+            "nom": "Chloé Girard",
+            "livres_empruntes": []
+        },
+        {
+            "id": "e37f8261-98f9-44af-aea3-f2142f42ef68",
+            "nom": "Tom Richard",
+            "livres_empruntes": []
+        },
+        {
+            "id": "6e1813a1-fe21-4330-a5a1-925b29b29b91",
+            "nom": "oscar",
+            "livres_empruntes": []
+        },
+        {
+            "id": "c4b2ac14-71d5-4af1-9cbe-122a5a8410a4",
+            "nom": "cristian",
+            "livres_empruntes": []
+        },
+        {
+            "id": "c88d9c5b-4ce2-4c42-b47e-4a779171787a",
+            "nom": "damien",
+            "livres_empruntes": []
+        },
+        {
+            "id": "cc210c5b-2e9a-4925-9c58-2c06dc647528",
+            "nom": "le prof",
+            "livres_empruntes": []
+        }
+    ]
+}
