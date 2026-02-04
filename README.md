@@ -1,64 +1,71 @@
-Projet 1 -- Gestion d'une librairie
+# Projet 1 — Gestion d’une Librairie  
+**Réalisé par : Damien Lebas, Cristian Carp et Oscar Stemmelin**
 
-Réalisé par: Damien Lebas, Cristian Carp et Oscar Stemmelin
+## Description du projet  
+Ce projet propose une application Python permettant de **gérer une librairie** à l’aide d’une petite base de données locale au format JSON.  
+L’utilisateur peut consulter, ajouter, supprimer ou emprunter des livres, gérer les utilisateurs, et afficher des statistiques descriptives.
 
+Le dépôt contient également les tests unitaires, les consignes du projet et les dépendances nécessaires.
 
+---
 
-Notre projet contient un dossier "code" dans lequel y apparait tous les fichiers python et un fichier json ayant le rôle de base de données. On expliquera son utilité plus tard. Nous trouverons aussi un fichier consignes.txt (copie exacte de la consigne), un requirements.txt qui contient les dépendances nécéssaires au projet, et le README que vous lisez actuellement.
+## Structure du dépôt  
 
-Le dossier code contient :
-    - main.py : Programme principal que l'utilisateur doit lancer
-    - librairie.py : Contient la classe Librairie, et contient toutes ses méthodes
-    - modeles.py : Contient les deux dataclasses : livre et utilisateur
-    - tests.py : Contient l'ensemble des tests des fonctions et méthodes
-    - data.json : Représente la base de données contenant deux tableaux : Livres et Utilisateurs
+```
+M1EcoStats-GroupProject/
+├── Code/
+│   ├── main.py
+│   ├── librairie.py
+│   ├── modeles.py
+│   ├── tests.py
+│   └── data.json
+├── requirements.txt
+├── consignes.md
+└── README.md
+```
 
-Le reste du projet contient : 
-    requirements.txt : Contient les dépendances
-    consignes.md : Copie de la consigne
-    README.md : Page d'explication
+### Détails des fichiers du dossier `Code/`
+- **main.py** : Point d’entrée du programme, interface utilisateur.  
+- **librairie.py** : Contient la classe `Librairie` et l’ensemble des méthodes de gestion.  
+- **modeles.py** : Définit les deux dataclasses `Livre` et `Utilisateur`.  
+- **tests.py** : Ensemble des tests unitaires.  
+- **data.json** : Base de données contenant deux tableaux : `Livres` et `Utilisateurs`.
 
+### Fichiers à la racine
+- **requirements.txt** : Liste des dépendances Python.  
+- **consignes.md** : Copie de la consigne du projet.  
+- **README.md** : Documentation du projet.
 
-Structure :
+---
 
-M1EcoStats-GroupProject/    
-├── Code/    
-│   ├── main.py    
-│   ├── librairie.py    
-│   ├── modeles.py    
-│   ├── tests.py    
-│   └── data.json    
-├── requirements.txt    
-├── consignes.md    
-└── README.md    
+## Fonctionnalités  
+Le programme permet de :
 
+-  **Afficher la liste des livres**  
+-  **Ajouter** un livre ou un utilisateur  
+-  **Rechercher** un livre  
+-  **Supprimer** un livre ou un utilisateur  
+-  **Emprunter** un livre  
+-  **Retourner** un livre  
+-  **Afficher des statistiques descriptives** sur la base de données  
 
-Contenu :
+---
 
-Ce programme gère une librairie, nous pouvons :
-    - Afficher la liste des livres
-    - Ajouter un livre et/ou utilisateur
-    - Chercher un livre
-    - Supprimer un livre et/ou utilisateur
-    - Emprunter un livre
-    - Retourner un livre
-    - Afficher les statistiques descriptives de la base de données
+## Outils utilisés (non vus en cours)
 
+### **JSON**
+Utilisé comme base de données légère et modifiable.  
+Il permet de **sauvegarder l’état de la librairie** même après fermeture du programme.
 
+### **uuid**
+La bibliothèque standard `uuid` permet d’attribuer automatiquement un **identifiant unique** à chaque livre.
 
-Outils non vus en cours :
+### **try / except**
+Initialement, les erreurs étaient gérées via `raise ValueError`, ce qui arrêtait le programme.  
+Le passage à `try/except` permet :
+- d’afficher l’erreur à l’utilisateur  
+- de **ne pas interrompre l’exécution**  
+- de conserver les modifications déjà effectuées  
 
-json : ce type de fichier nous permet d'utiliser une base de données modifiable. Nous avons choisi le json car il nous fallait pouvoir sauvegarder les différentes taches ci-dessus même lorsque le programme s'arrête.
-
-uuid : Nous avons utilisé la classe de la bibliothèque standart de python 'uuid', qui nous permet facilement d'attribuer un identifiant à chaque livre de manière aléatoire.
-
-try, except : Comme indiqué dans le cours, nous avons initialement utilisé des raise ValueError, cependant, dès que l'utilisateur faisait une faute de frappe, le programme s'arrêtait sans sauvegarder les modifications effectuées. Ainsi le try except permet à l'utilisateur de print l'erreur sans arrêter le programme.
-
-capsys : Utiliser dans les tests, capsys nous permet de masquer ce que print une fonction. Il s'agit seulement d'esthetisme.
-
-
-
-
-
-
-
+### **capsys (pytest)**
+Utilisé dans les tests unitaires pour **capturer et masquer les sorties console**, uniquement pour des raisons d’esthétique.
